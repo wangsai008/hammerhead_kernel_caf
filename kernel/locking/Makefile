@@ -1,5 +1,5 @@
 
-obj-y += mutex.o
+obj-y += mutex.o mcs_spinlock.o
 
 ifdef CONFIG_FUNCTION_TRACER
 CFLAGS_REMOVE_mutex-debug.o = -pg
