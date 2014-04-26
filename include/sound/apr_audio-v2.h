@@ -3677,7 +3677,6 @@ struct asm_session_cmd_run_v2 {
 } __packed;
 
 #define ASM_SESSION_CMD_PAUSE 0x00010BD3
-#define ASM_SESSION_CMD_SUSPEND 0x00010DEC
 #define ASM_SESSION_CMD_GET_SESSIONTIME_V3 0x00010D9D
 #define ASM_SESSION_CMD_REGISTER_FOR_RX_UNDERFLOW_EVENTS 0x00010BD5
 
@@ -7174,7 +7173,5 @@ struct afe_svc_cmd_set_clip_bank_selection {
 #define US_POINT_EPOS_FORMAT_V2 0x0001272D
 #define US_RAW_FORMAT_V2        0x0001272C
 #define US_PROX_FORMAT_V2       0x0001272E
-#define US_RAW_SYNC_FORMAT      0x0001272F
-#define US_GES_SYNC_FORMAT      0x00012730
 
 #endif /*_APR_AUDIO_V2_H_ */
